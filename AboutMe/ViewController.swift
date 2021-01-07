@@ -11,25 +11,25 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func factOneClicked(_ sender: Any) {
-        if factOneLabel.textColor == UIColor.black {
-            factOneLabel.textColor = UIColor.white
+        if factOneLabel.textColor == .black {
+            factOneLabel.textColor = .white
         } else {
-            factOneLabel.textColor = UIColor.black
+            factOneLabel.textColor = .black
         }
     }
     @IBAction func factTwoClicked(_ sender: Any) {
-        if factTwoLabel.textColor == UIColor.black {
-            factTwoLabel.textColor = UIColor.white
+        if factTwoLabel.textColor == .black {
+            factTwoLabel.textColor = .white
         } else {
-            factTwoLabel.textColor = UIColor.black
+            factTwoLabel.textColor = .black
         }
     }
     
     @IBAction func factThreeClicked(_ sender: Any) {
-        if factThreeLabel.textColor == UIColor.black {
-            factThreeLabel.textColor = UIColor.white
+        if factThreeLabel.textColor == .black {
+            factThreeLabel.textColor = .white
         } else {
-            factThreeLabel.textColor = UIColor.black
+            factThreeLabel.textColor = .black
         }
     }
     
@@ -48,9 +48,9 @@ class ViewController: UIViewController {
         factThreeLabel.textAlignment = NSTextAlignment.center
         factThreeLabel.numberOfLines = 0
         factThreeLabel.font = UIFont(name: "Arial", size: 40.0)
-//        var aFont = UIFont()
-//        aFont.fontDescriptor
-//        
+        factTwoLabel.textColor = .black
+        factThreeLabel.textColor = .black
+        factOneLabel.textColor = .black
         factOneLabel.text = "very handsome"
         factTwoLabel.text = "nice too"
         factThreeLabel.text = "idk anything else"
